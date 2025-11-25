@@ -19,7 +19,7 @@ function Get-SystemInfo {
     $contenido += "===== Top 5 Procesos por CPU ====="
     $contenido += ($procesos | Format-Table -AutoSize | Out-String)
 
-    # --- 6. Guardar ---
+    # --- 4. Guardar ---
     $contenido | Out-File -FilePath $ruta -Encoding UTF8
 
     Write-Host "Reporte generado en: $ruta"
