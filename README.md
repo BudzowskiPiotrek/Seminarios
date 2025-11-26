@@ -2,7 +2,7 @@
 
 ## 📝 Descripción del Proyecto
 
-Este repositorio actúa como un archivo centralizado para todos los materiales, ejemplos de código y recursos utilizados durante los seminarios y talleres impartidos en el Colegio San José. Su objetivo es proporcionar un acceso fácil y organizado a los contenidos para que los estudiantes y participantes puedan revisar, practicar y profundizar en los temas cubiertos.
+Este repositorio actúa como un archivo centralizado para todos los materiales, ejemplos de código y recursos utilizados durante los seminarios y talleres impartidos en el Colegio San José.
 
 ## 🗂 Estructura del Repositorio
 
