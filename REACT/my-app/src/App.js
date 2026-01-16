@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import JSXExample from './JSXExample';
+import Message from './Message';
+import User from './User';
+import Product from './Product';
+import EventExample from './EventExample';
+import ClassEvent from './ClassEvent';
+import ChildButton from './ChildButton';
+import ConditionalExample from './ConditionalExample';
+import UserList from './UserList';
+
+
+
 
 function App() {
+  function showMessage() {
+    alert("Button clicked from App component!");
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Ejercicio Reack: Component, Props y State</h1>
+      <JSXExample />
+      <User name="Juan Perez" />
+      <Message />
+      <Product name="Laptop" price={1200} />
+      <EventExample />
+      <ClassEvent />
+      <ChildButton handleClick={showMessage} />
+      <ConditionalExample />
+      <UserList />
+
+
+
     </div>
   );
 }
