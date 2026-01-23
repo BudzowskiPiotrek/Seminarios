@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Comprueba si existe la asignatura</h1>
+    <form action="" method="POST">
+        <label>Nombre:</label>
+        <input type="text" name="nombre">
+        <input type="submit" value="comprobar">
+    </form>
+        {% if asignatura in elementos %}
+            <p>La asignatura {{ asignatura }} se encuentra en la lista</p>
+        {% else %}
+            <p>La asignatura {{ asignatura }} no se encuentra en la lista</p>
+        {% endif %}
+    </body>
+</html>
